@@ -1,14 +1,52 @@
 .header {
-    background: #191919;
+    background: center url('/assets/home/mobile/image-header.jpg');
+    background-size: cover;
+
+    .content {
+        padding: 4em 24px;
+        text-align: center;
+
+        .new-product {
+            color: #FFF;
+            text-align: center;
+            font-size: 0.875rem;
+            font-weight: 400;
+            letter-spacing: 0.625rem;
+            text-transform: uppercase;
+            opacity: 0.4964;
+            margin-bottom: 1rem;
+        }
+
+        .header-title {
+            color: hsla(0, 0%, 100%, 1);
+            font-size: 2.25rem;
+            font-weight: 700;
+            line-height: 2.5rem;
+            text-transform: uppercase;
+            margin-bottom: 1.5rem;
+        }
+
+        .header-paragraph {
+            color: #FFF;
+            font-size: 15px;
+            line-height: 25px;
+            opacity: 0.75;
+            margin-bottom: 2.69rem;
+        }
+    }
 }
 
-.new-product {
-    color: #FFF;
-    text-align: center;
-    font-size: 0.875rem;
-    font-weight: 400;
-    letter-spacing: 0.625rem;
+.button {
+    width: 160px;
+    height: 48px;
     text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
 
-    opacity: 0.4964;
+.orange {
+    background-color: #D87D4A;
+    color: #fff;
+    border: none;
 }
